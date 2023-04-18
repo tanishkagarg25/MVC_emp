@@ -1,18 +1,20 @@
-## Getting Started
+### MVC Architecture Pattern:
+MVC (Model-View-Controller) is an architectural design pattern used in software engineering to
+create applications with a clear separation of concerns. It divides the application into three
+interconnected components: Model, View, and Controller. Each component has a specific role to
+play in the application and interacts with the other components in a predefined way.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The Model represents the data and the business logic of the application. It is responsible for storing
+and retrieving data, as well as performing calculations and other operations. The Model component
+is independent of the user interface and can be reused in different applications.
 
-## Folder Structure
+The View represents the user interface of the application. It is responsible for displaying the data to
+the user and receiving input from the user. The View component is typically implemented using a
+graphical user interface (GUI) toolkit such as Swing or JavaFX.
 
-The workspace contains two folders by default, where:
+The Controller acts as an intermediary between the Model and View components. It is responsible
+for receiving input from the user through the View, processing it using the Model, and updating the
+View with the results. The Controller component also handles events and manages the overall flow
+of the application.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+It is an app to collect employee database (mysql) made using java swing library
